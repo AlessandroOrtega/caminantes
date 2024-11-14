@@ -1,0 +1,144 @@
+:root {
+    --main-bg-color: #C20000;
+    --secondary-bg-color: #edaf3d;
+    --highlight-color: #FFD34C;
+    --hover-bg-color: #9d0a85;
+    --text-color: #fff;
+    --link-color: #000;
+    --link-hover-color: #fff;
+    --font-family-main: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --font-family-alt: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: block;
+    min-height: 100vh;
+    background: var(--main-bg-color);
+}
+
+.wrapper {
+    margin: 140px auto;
+    width: 75%;
+}
+
+/* Header Styles */
+h1 {
+    text-shadow: 5px 5px 5px #000;
+    color: gold;
+    width: 500px;
+}
+
+h1.tema {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background: #004173;
+    color: rgb(225, 255, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Div Styles */
+div {
+    width: 500px;
+    height: 130px;
+    background: var(--secondary-bg-color);
+    margin: 80px;
+}
+
+/* Link Styles */
+a {
+    font-size: 50px;
+    text-decoration: none;
+    font-family: var(--font-family-main);
+    color: var(--link-hover-color);
+}
+
+a:link {
+    color: var(--link-color);
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 55px;
+    background: var(--hover-bg-color);
+}
+
+/* Image Styles */
+img {
+    max-width: 400px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 130px;
+    height: 130px;
+}
+
+/* Text Box Styles */
+.text-box {
+    color: var(--text-color);
+}
+
+.text-box h2 {
+    font-size: 42px;
+}
+
+.text-box p {
+    font-size: 16px;
+}
+
+/* Menu Styles */
+.menu {
+    background: var(--highlight-color);
+    width: 100%;
+    list-style: none;
+    font-size: 10px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    padding: 10px 100px;
+    display: inline-block;
+    color: var(--link-hover-color);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family-alt);
+    letter-spacing: 2px;
+}
+
+.menu li a:hover {
+    font-size: 15px;
+    background: var(--hover-bg-color);
+}
+
+/* Simple Section Styles */
+.simples {
+    width: 100%;
+    height: 110%;
+    font-size: 50px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer Styles */
+footer {
+    background: black;
+    font-size: 35px;
+    padding: 20px;
+}
+
+h4 {
+    display: inline-block;}
