@@ -1,5 +1,5 @@
 body{
-    background: #06066c
+    background: #034272;
 }
 H1.Add{
     text-align: center;
@@ -11,7 +11,7 @@ div {
     width: 500px;
     height: 130px;
     
-    background: #fff;
+    background: #0407b3;
     margin: 80px ;
 
 
@@ -46,7 +46,7 @@ body{
     display: block;
     
     min-height: 100%;
-    background: #0407b3;    
+    background: #034272;    
     align-content: center;
     text-align: center;
     width: 100%;
@@ -63,7 +63,7 @@ body{
 img{
     max-width: 400px;
     float: left;
-    border: 3px solid #fff;
+    border: 3px solid #ffffffd0;
     border-radius: 10px;
     margin-right: 20px;
     width: 130px;
@@ -98,5 +98,5 @@ nav{
     height: 160px;
     padding-top: 10px;
     border: 3px solid rgb(141, 141, 7);
-    color: red;
+    
 }

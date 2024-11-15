@@ -55,7 +55,7 @@ div {
     height: 100px;
     background:  #0407b3;
     align-content: center;
-    padding-bottom: 0px;    
+    margin: 10px;
 }
 
 /* Link Styles */
@@ -85,7 +85,7 @@ img {
     border-radius: 10px;
     margin-right: 20px;
     width: 130px;
-    height: 130px;
+    height: 140px;
 }
 
 /* Text Box Styles */
