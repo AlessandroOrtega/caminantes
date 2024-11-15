@@ -1,8 +1,8 @@
 :root {
     --main-bg-color:    #034272;
     --secondary-bg-color: #edaf3d;
-    --highlight-color: #FFD34C;
-    --hover-bg-color: #9d0a85;
+    --highlight-color: #f8c11b;
+    --hover-bg-color: #cfa11a;
     --text-color: #fff;
     --link-color: #000;
     --link-hover-color: #fff;
@@ -55,7 +55,7 @@ div {
     height: 100px;
     background:  #0407b3;
     align-content: center;
-    padding-bottom: 0px;
+    padding-bottom: 0px;    
 }
 
 /* Link Styles */
@@ -117,7 +117,7 @@ div.text-box h2 {
     padding: 10px 100px;
     display: inline-block;
     color: var(--link-hover-color);
-    font-size: 20px;
+    font-size: 19px;
     justify-content: center;
     align-items: center;
     font-family: var(--font-family-alt);
@@ -125,8 +125,8 @@ div.text-box h2 {
 }
 
 .menu li a:hover {
-    font-size: 15px;
-    background: var(--hover-bg-color);
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; 
 }
 
 /* Simple Section Styles */
