@@ -45,7 +45,13 @@ body{
     display: block;
     
     min-height: 100vh;
-    background: #c20000;
+    background: #0407b3;    
+    align-content: center;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+
     
 }
 .wrapper{

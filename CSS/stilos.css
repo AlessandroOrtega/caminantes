@@ -29,7 +29,7 @@ div.wrapper {
     width: 50%;
     height: 160px;
     padding-top: 10px;
-    border: 3px solid yellow
+    border: 3px solid rgb(141, 141, 7)
 }
 
 /* Header Styles */
@@ -43,7 +43,7 @@ h1.tema {
     height: 50px;
     width: 100%;
     text-align: center;
-    background: #1f119c;
+    background: #c00000;
     color: rgb(225, 255, 0);
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
