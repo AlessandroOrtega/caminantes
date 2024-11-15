@@ -63,17 +63,18 @@ a {
     font-size: 50px;
     text-decoration: none;
     font-family: var(--font-family-main);
-    color: var(--link-hover-color);
+    color: black;
 }
 
 a:link {
-    color: var(--link-color);
+    color:black;
+
 }
 
 a:hover {
     text-decoration: underline;
     font-size: 45px;
-    background: var(--hover-bg-color);
+    background: #900202;
 }
 
 /* Image Styles */
@@ -99,6 +100,7 @@ div.text-box h2 {
 
 .text-box p {
     font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Menu Styles */
